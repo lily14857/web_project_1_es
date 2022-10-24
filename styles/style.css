@@ -14,6 +14,11 @@
   color: #2f80ed;
 }
 
+.text-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -111,13 +116,14 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  margin: 0 auto;
+  margin: 100px auto 100px;
   padding-left: 100px;
   width: 80%;
 }
 
 .two-columns__brief {
   width: 175px;
+
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -126,6 +132,7 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -143,6 +150,59 @@
 
 .two-columns__paragraph + .two-columns__paragraph {
   margin-top: 30px;
+}
+
+/* DIGIT SECTION */
+.digits {
+  margin: 0 auto 100px;
+}
+
+.section-title {
+  width: 60%;
+
+  line-height: 1.5;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  margin: 60px auto 100px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px 20px;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 250px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin: 0;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* including elements with key-value modifiers */
