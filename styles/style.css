@@ -172,6 +172,7 @@ ul {
 
 .section-subtitle {
   width: 60%;
+  padding-top: 20px;
 
   line-height: 34px;
   font-size: 24px;
@@ -303,11 +304,9 @@ ul {
 .footer {
   min-height: 350px;
   background-color: black;
-  border: 4px solid rgb(49, 0, 128);
 }
 
 .footer__columns {
-  border: 4px solid violet;
   width: 90%;
   margin: 0 auto;
 
@@ -316,41 +315,60 @@ ul {
 }
 
 .footer__column_content_copyright {
-  border: 4px solid green;
   flex-basis: 711px;
 }
 
 .logo_place_footer {
-  border: 4px solid goldenrod;
   width: 183px;
   height: 35px;
 }
 
 .footer__author {
+  width: 90%;
+  margin: 0 auto;
   color: white;
-  border: 4px solid cornflowerblue;
+
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column_content_about {
-  border: 4px solid rgb(237, 148, 100);
 }
 
 .footer__column-heading {
   color: white;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+
+  padding-bottom: 20px;
 }
 
 .footer__list {
   color: white;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0;
+  list-style: none;
 }
 
 .footer__column_content_social {
-  border: 4px solid rgb(225, 237, 100);
 }
 
 .footer__column-link {
   color: white;
+  display: block;
+  text-decoration: none;
 }
 
 .footer__social-icons {
   color: white;
+  padding-right: 10px;
 }
