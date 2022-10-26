@@ -19,7 +19,11 @@
   text-align: center;
 }
 
-ul {
+ul,
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -68,7 +72,7 @@ ul {
   padding-top: 30px;
 }
 
-.header-info__title {
+.header__title {
   max-width: 730px;
 
   display: flex;
@@ -79,7 +83,7 @@ ul {
   font-weight: bold;
 }
 
-.header-info__subtitle {
+.header__subtitle {
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -97,7 +101,7 @@ ul {
   font-weight: normal;
 }
 
-.header-imgs__main-illustration {
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -105,7 +109,7 @@ ul {
   max-height: 608px;
 }
 
-.header-imgs__square {
+.header__square {
   position: absolute;
   top: 64px;
   right: 0;
