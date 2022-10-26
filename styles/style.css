@@ -41,8 +41,8 @@ ul {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
   position: relative;
+  /* parameters for the header section */
 }
 
 .logo_place_header {
@@ -336,9 +336,6 @@ ul {
   font-weight: normal;
 }
 
-.footer__column_content_about {
-}
-
 .footer__column-heading {
   color: white;
 
@@ -357,9 +354,6 @@ ul {
   font-weight: normal;
   padding: 0;
   list-style: none;
-}
-
-.footer__column_content_social {
 }
 
 .footer__column-link {
