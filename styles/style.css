@@ -324,20 +324,26 @@ p {
 .footer {
   min-height: 350px;
   background-color: black;
-  /* usar padding, box-sizing , display y justify-content */
+  box-sizing: border-box;
+  padding: 60px 0 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__columns {
-  width: 90%;
-  /* margin: 0 auto; esto no va */
-
   display: flex;
   justify-content: space-between;
+
+  width: 90%;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  /* justify-content: ; esta clase obtiene la propiedad justify-content según el diseño */
+  justify-content: flex-start;
+  display: flex;
 }
 
 .logo_place_footer {
@@ -346,12 +352,11 @@ p {
 }
 
 .footer__author {
-  /* width: 90%; borrar */
-  /* margin: 0 auto; borrar */
   color: white;
 
   padding-top: 18px;
   padding-bottom: 18px;
+  width: 90%;
 
   line-height: 25px;
   font-size: 18px;
@@ -364,13 +369,9 @@ p {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-
-  /* padding-bottom: 20px; borrar */
 }
 
 .footer__list {
-  list-style: none; /*esta clase solo recibe la propiedad de list-style*/
-
   list-style: none;
 }
 
