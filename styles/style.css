@@ -81,7 +81,7 @@ p {
 .header__main-illustration {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 50px;
   max-width: 756px;
   max-height: 608px;
 }
@@ -285,10 +285,6 @@ p {
   margin: 0 auto;
   text-align: center;
 
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-
   padding-top: 90px;
 }
 
@@ -399,5 +395,7 @@ p {
 }
 
 .footer__column {
+  display: flex;
+  flex-direction: column;
   /*esta clase recibe dos propiedades..*/
 }
