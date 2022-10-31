@@ -386,16 +386,15 @@ p {
   padding-right: 10px;
 }
 
-.footer__column_content_social {
-  /*esta clase recibe solo una propiedad..*/
-}
-
-.footer__column_content_about {
-  /*esta clase recibe solo una propiedad..*/
-}
-
 .footer__column {
   display: flex;
   flex-direction: column;
-  /*esta clase recibe dos propiedades..*/
+}
+
+.footer__column_content_social {
+  gap: 20px;
+}
+
+.footer__column_content_about {
+  gap: 20px;
 }
