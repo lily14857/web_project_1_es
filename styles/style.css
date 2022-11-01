@@ -28,7 +28,6 @@ p {
   min-height: 600px;
   max-height: 756px;
   overflow: hidden;
-  padding-top: 30px;
   background-color: #f2f2f2;
 
   display: flex;
@@ -101,15 +100,15 @@ p {
 .description {
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  margin: 100px auto;
+  margin: 100px 0;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
 
-  margin-left: 100px;
   width: 80%;
 }
 
@@ -153,7 +152,7 @@ p {
 
 .section-title {
   width: 60%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 
   line-height: 1.5;
@@ -164,7 +163,7 @@ p {
 .section-subtitle {
   width: 60%;
   padding-top: 20px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 
   line-height: 34px;
@@ -174,7 +173,7 @@ p {
 
 .table {
   width: 1100px;
-  margin: 60px auto 100px;
+  margin: 60px 0 100px;
 
   display: flex;
   justify-content: space-between;
@@ -227,7 +226,7 @@ p {
 .feynman__title {
   width: 775px;
   padding-top: 100px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   z-index: 1;
 
@@ -238,7 +237,7 @@ p {
 
 .feynman__subtitle {
   padding-top: 70px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   z-index: 1;
 
@@ -282,24 +281,17 @@ p {
 
 .section-title_theme_dark {
   color: white;
-  margin: 0 auto;
-  text-align: center;
 
   padding-top: 90px;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  margin: 0 auto;
-  text-align: center;
-
-  padding-top: 20px;
 }
 
 .table__theme_dark {
   row-gap: 80px;
   margin-top: 80px;
-  position: relative;
   z-index: 1;
 }
 
@@ -324,9 +316,7 @@ p {
   padding: 60px 0 40px;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .footer__columns {
@@ -338,8 +328,7 @@ p {
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  justify-content: flex-start;
-  display: flex;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -352,7 +341,6 @@ p {
 
   padding-top: 18px;
   padding-bottom: 18px;
-  width: 90%;
 
   line-height: 25px;
   font-size: 18px;
@@ -361,6 +349,8 @@ p {
 
 .footer__column-heading {
   color: white;
+  display: flex;
+  justify-content: center;
 
   line-height: 30px;
   font-size: 18px;
@@ -373,7 +363,9 @@ p {
 
 .footer__column-link {
   color: white;
-  display: block;
+
+  display: flex;
+  align-items: center;
 
   line-height: 30px;
   font-size: 18px;
