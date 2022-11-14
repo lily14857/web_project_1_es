@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 ul,
 li,
 div,
@@ -75,6 +84,13 @@ p {
   text-decoration: none;
   color: #2f80ed;
   display: block;
+
+  opacity: 1;
+  transition: opacity 360ms linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -93,6 +109,9 @@ p {
   background-color: #2f80ed;
   width: 568px;
   height: 568px;
+
+  transform: rotate(-15deg);
+  animation: rotation infinite 20s;
 }
 
 /* DESCRIPTION SECTION */
@@ -256,6 +275,13 @@ p {
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+
+  opacity: 1;
+  transition: opacity 360ms linear;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 /* KAUFMAN SECTION */
@@ -371,6 +397,13 @@ p {
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+
+  opacity: 1;
+  transition: opacity 360ms linear;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 
 .footer__social-icons {
