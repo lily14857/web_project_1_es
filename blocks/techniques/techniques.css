@@ -1,5 +1,3 @@
-@import url(./cards/cards.css);
-
 .techniques {
   display: flex;
   flex-direction: column;
