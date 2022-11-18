@@ -67,7 +67,7 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-@import url(../blocks/table/__theme/table__theme_dark.css);
+@import url(../blocks/table/table_theme_dark.css);
 
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/techniques/cards/cards.css);
