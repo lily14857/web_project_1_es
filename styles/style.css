@@ -10,22 +10,6 @@ p {
   padding: 0;
 }
 
-.techniques {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cards {
-  max-width: 920px;
-
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  column-gap: 100px;
-}
-
 .cards__item {
   width: 240px;
 
@@ -59,10 +43,124 @@ p {
 }
 
 .video {
-  /* width: 1050px;
-  margin: 0 auto; */
+  padding-top: 100px;
+  background-image: linear-gradient(white 0 90%, #f2f2f2 90% 0);
 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  gap: 20px;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding: 160px 0 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.resources {
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__logo img {
+  height: 100%;
+}
+
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.khan__container {
+  width: 80%;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  margin-top: 50px;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin-top: 36px;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin-top: 10px;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+}
+
+.khan__book-pic img {
+  width: 100%;
+}
+
+.khan__book-container {
+  margin-top: 68px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.khan__buy-link {
+  text-decoration: none;
+  color: #2f80ed;
+
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
 }
