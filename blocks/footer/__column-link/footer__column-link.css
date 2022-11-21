@@ -1,14 +1,11 @@
 .footer__column-link {
   color: white;
-
   display: flex;
   align-items: center;
-
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-
   opacity: 1;
   transition: opacity 360ms linear;
 }
